@@ -414,8 +414,7 @@ input:-webkit-autofill:focus {
     width: 100%;
     background: url('images/header-bg.jpg') no-repeat scroll center bottom / cover;
     padding-top: 26vh;
-    color: #ffffff;
-    margin-bottom: 100px;
+
 }
 
 .home-area .mobile-image {
@@ -426,16 +425,6 @@ input:-webkit-autofill:focus {
 
 /*-- 8. Progress-Area --*/
 
-.progress-area {
-    background-image: url('images/progress-bg.jpg');
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 800px;
-    max-width: 100%;
-    max-height: 100%;
-    margin-top: 90px;
-    margin-bottom: 220px;
-}
 
 .progress-area .mobile-image {
     margin-top: -90px;
@@ -718,9 +707,9 @@ input:-webkit-autofill:focus {
     color: #8790af;
     -webkit-box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.1);
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .price-box:hover {
@@ -1417,8 +1406,8 @@ error:after {
 
 /*Gratient Backs*/
 .galaxy-purple {
-    background: rgb(23,12,64);
-    background: linear-gradient(90deg, rgba(23,12,64,1) 3%, rgba(36,103,191,1) 44%, rgba(20,106,140,1) 100%);
+    background: rgb(116,139,208);
+    background: linear-gradient(90deg, rgba(116,139,208,1) 0%, rgba(20,165,199,1) 46%, rgba(72,129,203,1) 100%);
 }
 
 .galaxy-blue {
